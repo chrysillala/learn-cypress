@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "airbnb-base",
+    "plugin:cypress/recommended",
+    "eslint:recommended",
+    "prettier"
+  ],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "semi": ["warning", "always"],
+    "quotes": ["warning", "single"]
+  }
+}
