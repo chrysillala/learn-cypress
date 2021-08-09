@@ -1,4 +1,5 @@
 {
   "baseUrl": "https://gofigure.gojek.com",
   "reporter": "mochawesome",
+  "projectId": "f6qe9j"
 }
