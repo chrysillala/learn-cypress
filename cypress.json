@@ -1,3 +1,4 @@
 {
   "baseUrl": "https://gofigure.gojek.com",
+  "reporter": "mochawesome",
 }
