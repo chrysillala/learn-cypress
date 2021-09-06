@@ -13,3 +13,10 @@
 1. get() : get DOM elements by selector
 1. click() : perform a click event
 1. should() : make an assertion
+
+## Scripts
+
+1. `yarn cy:open` : to open cypress
+1. `yarn cy:reporter` : create mochawesome reporter that runs all tests
+1. `yarn cy:spec path/to/your/test.spec.js` : run specific test spec
+1. `yarn cy:dashboard` : record all tests run which integrates with cypress dashboard
