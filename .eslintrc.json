@@ -8,7 +8,7 @@
   "plugins": ["prettier"],
   "rules": {
     "prettier/prettier": "error",
-    "semi": ["warning", "always"],
-    "quotes": ["warning", "single"]
+    "semi": ["warn", "always"],
+    "quotes": ["warn", "single"]
   }
 }
