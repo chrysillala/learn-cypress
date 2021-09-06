@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-08-06T04:59:02.361Z",
-    "end": "2021-08-06T04:59:06.769Z",
-    "duration": 4408,
+    "start": "2021-09-06T07:29:40.690Z",
+    "end": "2021-09-06T07:29:46.002Z",
+    "duration": 5312,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "d27445cc-1e2c-4b7b-b36b-9187c91dae4b",
+      "uuid": "eea842f5-2d75-4570-a952-9c08b4cdde0c",
       "title": "",
       "fullFile": "cypress/integration/sample_spec.js",
       "file": "cypress/integration/sample_spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "044fc524-8121-4e9e-8031-61c8a9b9a2c0",
+          "uuid": "9053aed7-ccb1-4889-8e36-10d7a7a2a250",
           "title": "My First Test",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "clicks the link \"type\"",
               "fullTitle": "My First Test clicks the link \"type\"",
               "timedOut": null,
-              "duration": 2540,
+              "duration": 3160,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit('https://example.cypress.io');\ncy.contains('type').click(); // Should be on a new URL which includes '/commands/actions'\ncy.url().should('include', '/commands/actions'); // Get an input, type into it and verify that the value has been updated\ncy.get('.action-email').type('fake@email.com').should('have.value', 'fake@email.com');",
               "err": {},
-              "uuid": "f1ed02f3-962a-4246-a3c4-194f72157ec8",
-              "parentUUID": "044fc524-8121-4e9e-8031-61c8a9b9a2c0",
+              "uuid": "e7f22bf6-4cba-4cb0-9bbf-f6b886a7ad7d",
+              "parentUUID": "9053aed7-ccb1-4889-8e36-10d7a7a2a250",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "f1ed02f3-962a-4246-a3c4-194f72157ec8"
+            "e7f22bf6-4cba-4cb0-9bbf-f6b886a7ad7d"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 2540,
+          "duration": 3160,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
